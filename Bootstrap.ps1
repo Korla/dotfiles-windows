@@ -30,5 +30,4 @@ if(Get-Command git -errorAction SilentlyContinue)
     Remove-Item -Path $WorkingDirectory -Force -Recurse
 }
 
-Invoke-Expression "$TARGET_DIR\InstallApplications.ps1"
 Invoke-Expression "$TARGET_DIR\SetupWindows10.ps1"
